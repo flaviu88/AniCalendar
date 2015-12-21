@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B8387B61C2895D400C0ACC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8387B51C2895D400C0ACC9 /* AppDelegate.swift */; };
+		1B8387B81C2895D500C0ACC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8387B71C2895D500C0ACC9 /* ViewController.swift */; };
+		1B8387BB1C2895D500C0ACC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8387B91C2895D500C0ACC9 /* Main.storyboard */; };
+		1B8387BE1C2895D500C0ACC9 /* AniCalendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B8387BC1C2895D500C0ACC9 /* AniCalendar.xcdatamodeld */; };
+		1B8387C01C2895D500C0ACC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B8387BF1C2895D500C0ACC9 /* Assets.xcassets */; };
+		1B8387C31C2895D500C0ACC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8387C11C2895D500C0ACC9 /* LaunchScreen.storyboard */; };
+		1B8387CE1C2895D500C0ACC9 /* AniCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8387CD1C2895D500C0ACC9 /* AniCalendarTests.swift */; };
+		1B8387D91C2895D500C0ACC9 /* AniCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8387D81C2895D500C0ACC9 /* AniCalendarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B8387CA1C2895D500C0ACC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B8387AA1C2895D400C0ACC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B8387B11C2895D400C0ACC9;
+			remoteInfo = AniCalendar;
+		};
+		1B8387D51C2895D500C0ACC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B8387AA1C2895D400C0ACC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B8387B11C2895D400C0ACC9;
+			remoteInfo = AniCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B8387B21C2895D400C0ACC9 /* AniCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AniCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8387B51C2895D400C0ACC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B8387B71C2895D500C0ACC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B8387BA1C2895D500C0ACC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B8387BD1C2895D500C0ACC9 /* AniCalendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AniCalendar.xcdatamodel; sourceTree = "<group>"; };
+		1B8387BF1C2895D500C0ACC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B8387C21C2895D500C0ACC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B8387C41C2895D500C0ACC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B8387C91C2895D500C0ACC9 /* AniCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AniCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8387CD1C2895D500C0ACC9 /* AniCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniCalendarTests.swift; sourceTree = "<group>"; };
+		1B8387CF1C2895D500C0ACC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B8387D41C2895D500C0ACC9 /* AniCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AniCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8387D81C2895D500C0ACC9 /* AniCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniCalendarUITests.swift; sourceTree = "<group>"; };
+		1B8387DA1C2895D500C0ACC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B8387AF1C2895D400C0ACC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B8387C61C2895D500C0ACC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B8387D11C2895D500C0ACC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B8387A91C2895D400C0ACC9 = {
+			isa = PBXGroup;
+			children = (
+				1B8387B41C2895D400C0ACC9 /* AniCalendar */,
+				1B8387CC1C2895D500C0ACC9 /* AniCalendarTests */,
+				1B8387D71C2895D500C0ACC9 /* AniCalendarUITests */,
+				1B8387B31C2895D400C0ACC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B8387B31C2895D400C0ACC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B8387B21C2895D400C0ACC9 /* AniCalendar.app */,
+				1B8387C91C2895D500C0ACC9 /* AniCalendarTests.xctest */,
+				1B8387D41C2895D500C0ACC9 /* AniCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B8387B41C2895D400C0ACC9 /* AniCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				1B8387B51C2895D400C0ACC9 /* AppDelegate.swift */,
+				1B8387B71C2895D500C0ACC9 /* ViewController.swift */,
+				1B8387B91C2895D500C0ACC9 /* Main.storyboard */,
+				1B8387BF1C2895D500C0ACC9 /* Assets.xcassets */,
+				1B8387C11C2895D500C0ACC9 /* LaunchScreen.storyboard */,
+				1B8387C41C2895D500C0ACC9 /* Info.plist */,
+				1B8387BC1C2895D500C0ACC9 /* AniCalendar.xcdatamodeld */,
+			);
+			path = AniCalendar;
+			sourceTree = "<group>";
+		};
+		1B8387CC1C2895D500C0ACC9 /* AniCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B8387CD1C2895D500C0ACC9 /* AniCalendarTests.swift */,
+				1B8387CF1C2895D500C0ACC9 /* Info.plist */,
+			);
+			path = AniCalendarTests;
+			sourceTree = "<group>";
+		};
+		1B8387D71C2895D500C0ACC9 /* AniCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B8387D81C2895D500C0ACC9 /* AniCalendarUITests.swift */,
+				1B8387DA1C2895D500C0ACC9 /* Info.plist */,
+			);
+			path = AniCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B8387B11C2895D400C0ACC9 /* AniCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B8387DD1C2895D500C0ACC9 /* Build configuration list for PBXNativeTarget "AniCalendar" */;
+			buildPhases = (
+				1B8387AE1C2895D400C0ACC9 /* Sources */,
+				1B8387AF1C2895D400C0ACC9 /* Frameworks */,
+				1B8387B01C2895D400C0ACC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AniCalendar;
+			productName = AniCalendar;
+			productReference = 1B8387B21C2895D400C0ACC9 /* AniCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B8387C81C2895D500C0ACC9 /* AniCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B8387E01C2895D500C0ACC9 /* Build configuration list for PBXNativeTarget "AniCalendarTests" */;
+			buildPhases = (
+				1B8387C51C2895D500C0ACC9 /* Sources */,
+				1B8387C61C2895D500C0ACC9 /* Frameworks */,
+				1B8387C71C2895D500C0ACC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B8387CB1C2895D500C0ACC9 /* PBXTargetDependency */,
+			);
+			name = AniCalendarTests;
+			productName = AniCalendarTests;
+			productReference = 1B8387C91C2895D500C0ACC9 /* AniCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B8387D31C2895D500C0ACC9 /* AniCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B8387E31C2895D500C0ACC9 /* Build configuration list for PBXNativeTarget "AniCalendarUITests" */;
+			buildPhases = (
+				1B8387D01C2895D500C0ACC9 /* Sources */,
+				1B8387D11C2895D500C0ACC9 /* Frameworks */,
+				1B8387D21C2895D500C0ACC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B8387D61C2895D500C0ACC9 /* PBXTargetDependency */,
+			);
+			name = AniCalendarUITests;
+			productName = AniCalendarUITests;
+			productReference = 1B8387D41C2895D500C0ACC9 /* AniCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B8387AA1C2895D400C0ACC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = 3PillarGlobal;
+				TargetAttributes = {
+					1B8387B11C2895D400C0ACC9 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					1B8387C81C2895D500C0ACC9 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 1B8387B11C2895D400C0ACC9;
+					};
+					1B8387D31C2895D500C0ACC9 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 1B8387B11C2895D400C0ACC9;
+					};
+				};
+			};
+			buildConfigurationList = 1B8387AD1C2895D400C0ACC9 /* Build configuration list for PBXProject "AniCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B8387A91C2895D400C0ACC9;
+			productRefGroup = 1B8387B31C2895D400C0ACC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B8387B11C2895D400C0ACC9 /* AniCalendar */,
+				1B8387C81C2895D500C0ACC9 /* AniCalendarTests */,
+				1B8387D31C2895D500C0ACC9 /* AniCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B8387B01C2895D400C0ACC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8387C31C2895D500C0ACC9 /* LaunchScreen.storyboard in Resources */,
+				1B8387C01C2895D500C0ACC9 /* Assets.xcassets in Resources */,
+				1B8387BB1C2895D500C0ACC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B8387C71C2895D500C0ACC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B8387D21C2895D500C0ACC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B8387AE1C2895D400C0ACC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8387B81C2895D500C0ACC9 /* ViewController.swift in Sources */,
+				1B8387B61C2895D400C0ACC9 /* AppDelegate.swift in Sources */,
+				1B8387BE1C2895D500C0ACC9 /* AniCalendar.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B8387C51C2895D500C0ACC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8387CE1C2895D500C0ACC9 /* AniCalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B8387D01C2895D500C0ACC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8387D91C2895D500C0ACC9 /* AniCalendarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B8387CB1C2895D500C0ACC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B8387B11C2895D400C0ACC9 /* AniCalendar */;
+			targetProxy = 1B8387CA1C2895D500C0ACC9 /* PBXContainerItemProxy */;
+		};
+		1B8387D61C2895D500C0ACC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B8387B11C2895D400C0ACC9 /* AniCalendar */;
+			targetProxy = 1B8387D51C2895D500C0ACC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B8387B91C2895D500C0ACC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B8387BA1C2895D500C0ACC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B8387C11C2895D500C0ACC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B8387C21C2895D500C0ACC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B8387DB1C2895D500C0ACC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B8387DC1C2895D500C0ACC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B8387DE1C2895D500C0ACC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AniCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3pillar.AniCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B8387DF1C2895D500C0ACC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AniCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3pillar.AniCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1B8387E11C2895D500C0ACC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AniCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3pillar.AniCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AniCalendar.app/AniCalendar";
+			};
+			name = Debug;
+		};
+		1B8387E21C2895D500C0ACC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AniCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3pillar.AniCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AniCalendar.app/AniCalendar";
+			};
+			name = Release;
+		};
+		1B8387E41C2895D500C0ACC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AniCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3pillar.AniCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AniCalendar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1B8387E51C2895D500C0ACC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AniCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3pillar.AniCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AniCalendar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B8387AD1C2895D400C0ACC9 /* Build configuration list for PBXProject "AniCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8387DB1C2895D500C0ACC9 /* Debug */,
+				1B8387DC1C2895D500C0ACC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B8387DD1C2895D500C0ACC9 /* Build configuration list for PBXNativeTarget "AniCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8387DE1C2895D500C0ACC9 /* Debug */,
+				1B8387DF1C2895D500C0ACC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B8387E01C2895D500C0ACC9 /* Build configuration list for PBXNativeTarget "AniCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8387E11C2895D500C0ACC9 /* Debug */,
+				1B8387E21C2895D500C0ACC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B8387E31C2895D500C0ACC9 /* Build configuration list for PBXNativeTarget "AniCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8387E41C2895D500C0ACC9 /* Debug */,
+				1B8387E51C2895D500C0ACC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1B8387BC1C2895D500C0ACC9 /* AniCalendar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1B8387BD1C2895D500C0ACC9 /* AniCalendar.xcdatamodel */,
+			);
+			currentVersion = 1B8387BD1C2895D500C0ACC9 /* AniCalendar.xcdatamodel */;
+			path = AniCalendar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1B8387AA1C2895D400C0ACC9 /* Project object */;
+}
